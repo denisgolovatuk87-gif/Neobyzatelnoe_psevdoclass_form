@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(73, 189, 189);
+}
+
+h1 {
+    color: brown;
+    font-weight: 600;
+    font-family: Tahoma;
+}
+
+.form-tape {
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Tahoma;
+}
+
+.country {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid blue;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Tahoma;
+}
+
+button {
+    background-color: rgb(136, 73, 196);
+    border: 2px solid black;
+    color: blue;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Tahoma;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rgba(129, 5, 245, 0.719);
+    border: 2px solid black;
+    color: rgba(51, 255, 0, 0.911);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Tahoma;
+    padding: 8px;
+    border-radius: 5px;  
+}
+
+.error-message {
+    display: none;
+    background-color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+input:valid {
+    background-color: rgb(47, 223, 77);
+    border-color: rgba(30, 255, 0, 0.616);
+}
+input:invalid {
+    background-color: rgb(216, 115, 102);
+    border-color: rgba(255, 51, 0, 0.479);
+}
